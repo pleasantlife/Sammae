@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="android.jhyuk.com.sammae.AddShopInfoActivity">
+
+    <EditText
+        android:id="@+id/editAddDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="매장 추가 날짜"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editShopCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="매장 코드" />
+
+    <EditText
+        android:id="@+id/editShopName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="매장 이름" />
+
+    <EditText
+        android:id="@+id/editAddress1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="매장 주소1" />
+
+    <EditText
+        android:id="@+id/editAddress2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="매장주소2" />
+
+    <EditText
+        android:id="@+id/editTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="매장 전화번호"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editFax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="매장 팩스번호"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="해당 지역" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/telecomSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editShopManagerNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="매장 관리자 휴대폰 번호"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editManagerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="매장 관라자 성함" />
+
+    <Button
+        android:id="@+id/btnPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="등록" />
+
+
+</LinearLayout>
